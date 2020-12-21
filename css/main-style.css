@@ -1,0 +1,113 @@
+/* Navbar Css */
+.navbar-expand-lg {
+  padding: 50px 10%;
+}
+
+.navbar-toggler {
+  font-size: 3em;
+}
+
+.logo-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  display: inline-block;
+  font-family: 'BioRhyme', serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+  padding-right: 40px;
+}
+
+.active {
+  border-bottom: 5px solid purple;
+  border-color: -webkit-linear-gradient(top, #000000, #BA51F0);
+  border-radius: 0;
+}
+
+/* Frontage Css*/
+
+.frontage-content {
+  width: 80%;
+  margin: auto;
+}
+
+.frontage-content .content-text {
+  margin-top: 100px;
+}
+
+.frontage-content .content-text .content-text-hey {
+  display: inline-block;
+  font-family: 'BioRhyme', serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #000;
+  border-bottom: 5px solid rgb(128, 0, 128);
+  border-radius: 0;
+  margin-bottom: 0.3em;
+}
+
+.frontage-content .content-text .content-text-am {
+  display: block;
+  font-family: 'BioRhyme', serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.frontage-content .content-text .content-text-name {
+  display: inline-block;
+  font-family: 'BioRhyme', serif;
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.frontage-content .content-text .content-text-job {
+  display: inline-block;
+  font-family: 'BioRhyme', serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FFFFFF 2px;
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  background-image: -webkit-linear-gradient(bottom, #000000, #BA51F0);
+  background-image: -moz-linear-gradient(bottom, #000000, #BA51F0);
+  background-image: -ms-linear-gradient(bottom, #000000, #BA51F0);
+  background-image: -o-linear-gradient(bottom, #000000, #BA51F0);
+  background-image: -webkit-gradient(to bottom, #000000, #BA51F0);
+}
+
+.frontage-content .content-image {
+  margin: auto;
+  text-align: center;
+}
+
+.frontage-content .content-social {
+  margin: 30px 0px;
+}
+
+.frontage-content .content-social .contact-icon {
+  display: inline;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
